@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+
+	<body>
+		<div class="centerText">
+			<img
+				src="C:/Users/stefan/OneDrive/Desktop/HTML & CSS/Predavanje 6/slike/Proizvod_1.webp"
+				width="350px"
+				height="230px"
+			/>
+			<div class="backgroundFromNameToButton">
+				<h1>Ferrari SF90</h1>
+				<h3>1.000.000&euro;</h3>
+				<button class="buyBackground">Buy</button>
+			</div>
+		</div>
+		<div class="centerText">
+			<img
+				src="C:/Users/stefan/OneDrive/Desktop/HTML & CSS/Predavanje 6/slike/Proizvod_2.jpg"
+				width="350px"
+				height="233.15px"
+			/>
+			<div class="backgroundFromNameToButton">
+				<h1>Ferrari SF90 black</h1>
+				<h3>600.000&euro;</h3>
+				<button class="buyBackground">Buy</button>
+			</div>
+		</div>
+		<div class="centerText">
+			<img
+				src="C:/Users/stefan/OneDrive/Desktop/HTML & CSS/Predavanje 6/slike/Proizvod_3.jpg"
+				width="350px"
+				height="233.15px"
+			/>
+			<div class="backgroundFromNameToButton">
+				<h1>Ferrari 812</h1>
+				<h3>700.000&euro;</h3>
+				<button class="buyBackground">Buy</button>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- U nastavku sledi CSS kod-->
+
+.centerText { text-align: center; margin: 20px auto; border: 2px solid gray;
+width: 350px; overflow: hidden; height: 500px; display: flex; flex-direction:
+column; justify-content: space-between; } .centerText img { width: 100%; height:
+600px; display: block; margin: 0; } .backgroundFromNameToButton {
+background-color: gray; padding: 20px 0; margin: 0; flex-grow: 1; }
+.buyBackground { background-color: black; color: white; width: 80px; border:
+none; padding: 5px 10px; cursor: pointer; }
