@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background-image: url(slike/pozadina1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 500px;
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+	padding: 20px;
+}
+
+.product {
+	width: 30%;
+	background-color: whitesmoke;
+	text-align: center;
+	padding: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.product img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.productFooter {
+	color: red;
+	justify-content: space-between;
+}
+
+@media (max-width: 640px) {
+	.product {
+		width: 40%;
+	}
+}
