@@ -75,3 +75,58 @@
 		</table>
 	</body>
 </html>
+
+
+<!-- Sada sledi CSS kod: -->
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+.carsTable {
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.carsTableTh1 {
+	text-align: center;
+}
+
+.carsTable th,
+.carsTable td {
+	border: none;
+	padding: 10px;
+}
+
+.carsTable th {
+	background-color: black;
+	color: white;
+}
+
+.carsTable tr:nth-child(odd) {
+	background-color: gray;
+}
+
+.carsTable tr:nth-child(even) {
+	background-color: white;
+}
+
+@media only screen and (max-width: 640px) {
+	.carsTable {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
