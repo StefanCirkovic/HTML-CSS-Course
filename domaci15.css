@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.orderForm {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	gap: 30px;
+	margin-top: 15px;
+}
+
+.orderForm label {
+	display: block;
+	text-align: left;
+}
+
+.orderForm input {
+	width: 300px;
+	height: 30px;
+}
+
+.orderForm select {
+	width: 300px;
+	height: 30px;
+}
+
+.paymentOptions {
+	display: flex;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 5px;
+	margin-top: 10px;
+}
+
+.paymentOption {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.paymentOption input[type="radio"] {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.checkBox {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 10px;
+	width: 380px;
+	margin-left: 80px;
+}
+
+.checkBox input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	margin: 0;
+}
+
+@media only screen and (max-width: 640px) {
+	.orderForm {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		flex-direction: column;
+	}
+}

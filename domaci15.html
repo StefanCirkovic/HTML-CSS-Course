@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="domaci15.css" />
+	</head>
+	<body>
+		<form class="orderForm">
+			<div>
+				<label for="name">Ime:</label>
+				<input
+					id="name"
+					type="text"
+					name="name"
+					placeholder="Unesite vase ime:"
+					required
+				/>
+			</div>
+
+			<div>
+				<label for="Adresa">Adresa:</label>
+				<input
+					id="Adresa"
+					type="text"
+					placeholder="Unesite vasu adresu:"
+					required
+				/>
+			</div>
+
+			<div>
+				<label for="Email">Email:</label>
+				<input
+					id="Email"
+					type="email"
+					placeholder="Unesite vas email:"
+					required
+				/>
+			</div>
+
+			<div>
+				<label for="OdaberiteGrad">Odaberite grad:</label>
+				<select>
+					<option disabled selected>Odaberite grad</option>
+					<option>Beograd</option>
+					<option>Novi Sad</option>
+					<option>Nis</option>
+				</select>
+			</div>
+
+			<div>
+				<label for="paymentMethod">Odaberite nacin placanja:</label>
+				<div class="paymentOptions" id="paymentMethod">
+					<div class="paymentOption">
+						<input
+							type="radio"
+							id="card"
+							name="payment"
+							value="card"
+							required
+						/>
+						<label for="card">Kreditnom karticom</label>
+					</div>
+
+					<div class="paymentOption">
+						<input type="radio" id="cash" name="payment" value="cash" />
+						<label for="cash">Pouzećem</label>
+					</div>
+				</div>
+			</div>
+
+			<div class="checkBox">
+				<input id="MailSubscription" type="checkbox" />
+				<label for="MailSubscription"
+					>Da li zelite da primate mail-ove sa nasima ponudama?</label
+				>
+			</div>
+
+			<div>
+				<input type="submit" />
+			</div>
+		</form>
+	</body>
+</html>
